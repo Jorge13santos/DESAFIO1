@@ -20,7 +20,16 @@
         # mount | grep data
         
         ###03
-         # 
+         # Kube master - execute os deploys  ( Arquivos no repositorios )
+          claim-nfs.yam
+          volume-nfs.yaml
+          pod.deploy.yaml
+          Service-LoadBalancer.yaml
+          
+          ### 04 ( index.html e desafio.tar tem que esta no ( /srv/nfs/data do nfs-server) 
+           Obs. dentro do index.html tem que redirecionar o ip 
+          
+         
         
         
         
