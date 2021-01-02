@@ -2,7 +2,7 @@
    
        Executando um deploy com volume nfs - Digital-Ocean
        
-   ### 01. 
+     ### 01. 
         Instalando NFS-SERVER no SERVIDOR ( pode ser um node ou nfs-server )
         # apt-get install nfs-server -y 
         # mkdir -p /srv/nfs/data
