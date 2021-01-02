@@ -11,6 +11,17 @@
          /srv/nfs/data    *(rw,sync,no_subtree_check,insecure)
         # exportfs -a ( verifcação de status nfs) 
         # showmount -e ( validação do compartilhamento)
+       
+      ###02
+        # apt install nfs-common -y   ( instalando client do nfs nos nodes do cluster)
+        
+        # showmount -e (ip nfs-server)
+        # showmount -e ip-nfs-server mount -t nfs ip-nfs-server:/srv/nfs/data /root/data 
+        # mount | grep data
+        
+        ###03
+         # 
+        
         
         
         
