@@ -27,7 +27,7 @@
           Service-LoadBalancer.yaml
           
           ### 04 ( index.html e desafio.tar tem que esta no ( /srv/nfs/data do nfs-server) 
-           Obs. dentro do index.html tem que redirecionar o ip 
+           Obs. dentro do index.html tem que redirecionar o ip do Node aonde o Pod foi migrado
           
          
         
